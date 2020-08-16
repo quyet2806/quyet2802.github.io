@@ -11,6 +11,13 @@
 - macOS Mojave: https://bit.ly/3iL8esv
 - macOS High Sierra: https://bit.ly/31WKdIb
 - macOS Sierra: https://bit.ly/3kRtWwQ
+# Công cụ
++ Đối với macOS:
+- Etcher (chỉ sử dụng khi các bạn sử dụng bộ cài cho Windows trên macOS): bit.ly/3iOFEH0
++ Đối với Windows:
+- Etcher: bit.ly/3iOFEH0
+- MiniTool Partition Wizard: bit.ly/3kJicfQ
+- Explorer++: bit.ly/3h2bKy9
 # Bootloader (Clover & OpenCore)
 Nếu như các bạn tạo bộ cài trên Windows thì Clover đã được tích hợp sẵn vào USB, các bạn chỉ việc boot vào và cài đặt.
 Còn nếu như các bạn tạo bộ cài trên macOS thì hãy sử dụng Clover làm bootloader (vì OpenCore vẫn đang trong quá trình thử nghiệm và có thể gây lỗi bất cứ lúc nào).
