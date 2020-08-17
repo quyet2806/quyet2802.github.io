@@ -39,7 +39,7 @@ Còn nếu như các bạn tạo bộ cài trên macOS thì hãy sử dụng Clo
 - Lilu: Giúp patch vá mềm on-the-fly cho các phần cứng mà không cần phải chỉnh sửa quá nhiều. 
 https://bit.ly/2PUm53x
 - WhateverGreen.kext: Giúp giải quyết các vấn đề của iGPU và dGPU:  https://bit.ly/3109Bxo
-+ Các kext có thể phải thêm tuỳ thuộc vào phần cứng:
+# Các kext có thể phải thêm tuỳ thuộc vào phần cứng:
 - AppleIntelE1000e: Kext card LAN cho các card Intel đời cũ.  https://bit.ly/3h0AYNu
 - IntelMausiEthernet: Kext card LAN cho các card LAN Intel:  https://bit.ly/3kQw3RG
 - VoodooPS2Controller: Kext cho bàn phím và bàn rê chuột PS2 trên Laptop.  https://bit.ly/3kSLCbk
@@ -51,16 +51,13 @@ https://bit.ly/2PUm53x
  https://bit.ly/30YJY0a
 - AHCIPortInjector: Thêm các thông tin về ổ cứng để cho macOS có thể nhận ra. Nếu không thấy ổ cứng khi cài thì hãy dùng kext này. https://bit.ly/312yUix
  - NullCPUPowerManagement: Dùng để kích hoạt processor power management trên các dòng CPU Pentium, chẳng hạn như G4560.  https://bit.ly/2PTGN3o
-+ Hoàn thiện Hackintosh sau khi đã cài xong
+# Hoàn thiện Hackintosh sau khi đã cài xong
 - AppleALC: Nhằm kích hoạt âm thanh trong Hackintosh.  https://bit.ly/340e1GG
 - ACPIBatteryManager: Nhằm hiển thị phần trăm pin trên Laptop. https://bit.ly/30Z3x8s
 - NightShiftUnlocker: Kích hoạt tính năng Night Shift trên các card màn hình cũ.  https://bit.ly/34hVlT5
 - CodecCommander: Fix lỗi mất âm thanh sau khi wake và lỗi tai nghe bị rè trên Laptop.  https://bit.ly/3awMldu
 - HibernationFixup: Fix lỗi hibernate trong Hackintosh.  https://bit.ly/3217dpL
 - EnableLidWake: Fix lỗi wake sau khi gập màn hình của laptop.  https://bit.ly/2PWqJxT
-# Tinh chỉnh Config (laptop)
-* Hầu hết các laptop đều có thể sử dụng config của Rehabman. Các bạn chỉ cần đổi tên config các bạn cần sử dụng thành config.plist, rồi copy đè lên config gốc là xong.
-Link repo config dành cho laptop: https://github.com/RehabMan/OS-X-Clover-Laptop-Config
 
 Cảm ơn Olarila, Rehabman, InsanelyMac, Slice.... đã đóng góp cho Hackintosh.
 Nếu như có bất kỳ thắc mắc gì, có thể liên hệ với mình qua facebook cá nhân (https://www.facebook.com/onedotonedotonedotone)
